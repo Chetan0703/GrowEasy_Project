@@ -1,0 +1,59 @@
+[
+    {
+      "title": "Summer Sale",
+      "description": "Get up to 50% off on summer essentials!",
+      "cta": "Shop Now",
+      "image": "/images/summer-sale.jpg",
+      "background": "/public/images/summer-background.jpg"
+    },
+    {
+      "title": "New Arrivals",
+      "description": "Check out the latest trends in fashion.",
+      "cta": "Explore",
+      "image": "/images/new-arrivals.jpg",
+      "background": "/images/new-arrivals-background.jpg"
+    },
+    {
+      "title": "Back to School",
+      "description": "Gear up for the new school year with great deals.",
+      "cta": "Buy Now",
+      "image": "/images/back-to-school.jpg",
+      "background": "/images/back-to-school-background.jpg"
+    },
+    {
+      "title": "Winter Collection",
+      "description": "Stay warm with our winter collection.",
+      "cta": "Shop Now",
+      "image": "/images/winter-collection.jpg",
+      "background": "/images/winter-background.jpg"
+    },
+    {
+      "title": "Spring Sale",
+      "description": "Fresh deals for the spring season.",
+      "cta": "Discover",
+      "image": "/images/spring-sale.jpg",
+      "background": "/images/spring-background.jpg"
+    },
+    {
+      "title": "Tech Gadgets",
+      "description": "Latest gadgets at unbeatable prices.",
+      "cta": "Buy Now",
+      "image": "/images/tech-gadgets.jpg",
+      "background": "/images/tech-background.jpg"
+    },
+    {
+      "title": "Fitness Gear",
+      "description": "Get fit with our range of fitness products.",
+      "cta": "Explore",
+      "image": "/images/fitness-gear.jpg",
+      "background": "/images/fitness-background.jpg"
+    },
+    {
+      "title": "Home Decor",
+      "description": "Revamp your home with our decor items.",
+      "cta": "Shop Now",
+      "image": "/images/home-decor.jpg",
+      "background": "/images/home-background.jpg"
+    }
+  ]
+  

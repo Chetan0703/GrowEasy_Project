@@ -1,0 +1,55 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.banner:hover {
+  transform: scale(1.05);
+}
+
+.bannerContent {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.bannerDescription {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.ctaButton {
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.editButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+}
