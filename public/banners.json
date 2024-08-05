@@ -1,59 +1,50 @@
 [
-    {
-      "title": "Summer Sale",
-      "description": "Get up to 50% off on summer essentials!",
-      "cta": "Shop Now",
-      "image": "/images/summer-sale.jpg",
-      "background": "/public/images/summer-background.jpg"
-    },
-    {
-      "title": "New Arrivals",
-      "description": "Check out the latest trends in fashion.",
-      "cta": "Explore",
-      "image": "/images/new-arrivals.jpg",
-      "background": "/images/new-arrivals-background.jpg"
-    },
-    {
-      "title": "Back to School",
-      "description": "Gear up for the new school year with great deals.",
-      "cta": "Buy Now",
-      "image": "/images/back-to-school.jpg",
-      "background": "/images/back-to-school-background.jpg"
-    },
-    {
-      "title": "Winter Collection",
-      "description": "Stay warm with our winter collection.",
-      "cta": "Shop Now",
-      "image": "/images/winter-collection.jpg",
-      "background": "/images/winter-background.jpg"
-    },
-    {
-      "title": "Spring Sale",
-      "description": "Fresh deals for the spring season.",
-      "cta": "Discover",
-      "image": "/images/spring-sale.jpg",
-      "background": "/images/spring-background.jpg"
-    },
-    {
-      "title": "Tech Gadgets",
-      "description": "Latest gadgets at unbeatable prices.",
-      "cta": "Buy Now",
-      "image": "/images/tech-gadgets.jpg",
-      "background": "/images/tech-background.jpg"
-    },
-    {
-      "title": "Fitness Gear",
-      "description": "Get fit with our range of fitness products.",
-      "cta": "Explore",
-      "image": "/images/fitness-gear.jpg",
-      "background": "/images/fitness-background.jpg"
-    },
-    {
-      "title": "Home Decor",
-      "description": "Revamp your home with our decor items.",
-      "cta": "Shop Now",
-      "image": "/images/home-decor.jpg",
-      "background": "/images/home-background.jpg"
-    }
-  ]
-  
+  {
+    "title": "Summer Sale",
+    "description": "Get up to 50% off on summer essentials!",
+    "cta": "Shop Now",
+    "background": "https://img.freepik.com/premium-vector/modern-simple-3d-blue-abstract-background-design-business-card-presentation-background-booklet-brochure-certificate-template-backdrop-banner_181182-31265.jpg"
+  },
+  {
+    "title": "New Arrivals",
+    "description": "Check out the latest trends in fashion.",
+    "cta": "Explore",
+    "background": "https://static.vecteezy.com/system/resources/previews/004/231/213/non_2x/minimal-abstract-flat-blue-wavy-background-can-be-used-for-banner-card-or-presentation-free-vector.jpg"
+  },
+  {
+    "title": "Back to School",
+    "description": "Gear up for the new school year with great deals.",
+    "cta": "Buy Now",
+    "background": "https://static.vecteezy.com/system/resources/previews/021/002/309/non_2x/abstract-blue-gradient-wavy-background-free-vector.jpg"
+  },
+  {
+    "title": "Winter Collection",
+    "description": "Stay warm with our winter collection.",
+    "cta": "Shop Now",
+    "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmRnpN1tbqZslMyJt8CqZfKRTFVHn7eOOzHdaULakEXWJYpLdikIMbl-MlRBh5-RqZaAo&usqp=CAU"
+  },
+  {
+    "title": "Spring Sale",
+    "description": "Fresh deals for the spring season.",
+    "cta": "Discover",
+    "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx39STBKJoRCB5Bni9QOwvsWzRpmQHq5EHmg&s"
+  },
+  {
+    "title": "Tech Gadgets",
+    "description": "Latest gadgets at unbeatable prices.",
+    "cta": "Buy Now",
+    "background": "https://www.shutterstock.com/image-vector/blue-yellow-wavy-shape-background-260nw-1925337467.jpg"
+  },
+  {
+    "title": "Fitness Gear",
+    "description": "Get fit with our range of fitness products.",
+    "cta": "Explore",
+    "background": "https://static.vecteezy.com/system/resources/previews/004/231/213/non_2x/minimal-abstract-flat-blue-wavy-background-can-be-used-for-banner-card-or-presentation-free-vector.jpg"
+  },
+  {
+    "title": "Home Decor",
+    "description": "Revamp your home with our decor items.",
+    "cta": "Shop Now",
+    "background": "https://static.vecteezy.com/system/resources/previews/027/505/733/non_2x/abstract-business-banner-background-with-blue-yellow-and-white-modern-curve-illustration-vector.jpg"
+  }
+]
