@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Box, Modal, TextField, Button } from '@mui/material';
+import React, { useState, useEffect } from "react";
+import { Box, Modal, TextField, Button } from "@mui/material";
 
 interface Banner {
   title: string;
@@ -14,17 +14,32 @@ interface EditBannerSheetProps {
   handleClose: () => void;
   banner: Banner;
   onSave: (updatedBanner: Banner) => void;
+  onImageURLChange: (updatedBanner: Banner) => void; // new prop
 }
 
-const EditBannerSheet: React.FC<EditBannerSheetProps> = ({ open, handleClose, banner, onSave }) => {
+const EditBannerSheet: React.FC<EditBannerSheetProps> = ({
+  open,
+  handleClose,
+  banner,
+  onSave,
+  onImageURLChange,
+}) => {
   const [formData, setFormData] = useState<Banner>(banner);
+
+  useEffect(() => {
+    setFormData(banner); // Sync with banner prop changes
+  }, [banner]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
-    setFormData({
+    const updatedBanner = {
       ...formData,
       [name]: value,
-    });
+    };
+    setFormData(updatedBanner);
+    if (name === "image" || name === "background") {
+      onImageURLChange(updatedBanner); // call callback when URL changes
+    }
   };
 
   const handleSave = () => {
@@ -85,11 +100,11 @@ const EditBannerSheet: React.FC<EditBannerSheetProps> = ({ open, handleClose, ba
 };
 
 const style = {
-  position: 'absolute' as 'absolute',
-  bottom: '10%',
-  left: '50%',
-  transform: 'translate(-50%, 0)',
-  bgcolor: 'background.paper',
+  position: "absolute" as "absolute",
+  bottom: "10%",
+  left: "50%",
+  transform: "translate(-50%, 0)",
+  bgcolor: "background.paper",
   boxShadow: 24,
   p: 4,
 };
